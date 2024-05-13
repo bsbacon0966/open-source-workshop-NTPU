@@ -12,8 +12,8 @@ from linebot.v3.messaging import (
 import json
 import os
 import requests
-from PIL import Image
-from io import BytesIO
+# from PIL import Image 程式中並未使用到Imagec函式庫
+# from io import BytesIO
 from firebase import firebase
 import google.generativeai as genai
 
